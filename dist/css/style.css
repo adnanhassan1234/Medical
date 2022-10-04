@@ -1,0 +1,55 @@
+table,
+thead,
+tr,
+tbody,
+th,
+td {
+  text-align: center;
+}
+.main-header{
+        box-shadow: 0px 0px 7px white;
+        background-color: #061a3a !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(244 246 249);
+}
+
+[class*=sidebar-dark] .brand-link, [class*=sidebar-dark] .brand-link .pushmenu {
+    background-color: #061a3a !important;
+    color: rgb(244 246 249);
+}
+
+[class*=sidebar-dark-] {
+    background-color: #061a3a;
+}
+
+[class*=sidebar-dark] .btn-sidebar, [class*=sidebar-dark] .form-control-sidebar {
+    background-color: #061a3a;
+    border: 1px solid #56606a;
+    color: #fff;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-primary{
+    background-color: #0069d9 !important;
+    border-color: #0062cc !important;
+}
+
+.w-full{
+    height: 35px;
+    padding: 10px;
+}
+.rounded-md{
+    height: 35px;
+    padding: 10px;
+}
+.file-input{
+    height: 44px;
+}
+.card-primary:not(.card-outline)>.card-header {
+    background-color: #061a3a;
+}
